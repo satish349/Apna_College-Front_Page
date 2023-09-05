@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* navigation-bar */  
+
+nav{
+    background: #ffffff;
+    box-shadow: 1px 1px 7px rgb(160, 157, 157);
+    position: fixed;
+    width: 100%;
+}
+
+section{
+    padding-top: 100px;
+}
+.logo{
+    background-image: url(img1.png);
+    height: 90px;
+    width: 100px;
+    background-size: cover;
+}
+.nav-option{
+    list-style: none;
+    display: flex;
+    margin-left: 500px;
+}
+.nav-option li a{
+    text-decoration: none;
+    color:black;
+    font-weight: 500;
+    font-size: 1.15rem;
+    opacity: 0.95;
+    margin-left: 20px;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+
+/* main content  */
+ 
+.main-content{
+    display: flex;
+    padding: 70px 0px 0px 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.what-to-learn{
+    display: flex;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.learn{
+    margin-left: 8px;
+    color:rgba(0, 0, 255, 0.605);
+}
+.caption{
+    font-size: 1.2rem;
+}
+.main-content-animation{
+    background-image: url(img2.webp);
+    height: 300px;
+    width: 500px;
+    background-size: cover;
+}
+
+
+/* main content learner  */
+
+.main-content-learner{
+    background-color: rgba(70, 70, 231, 0.641);
+    text-align: center;
+    color:#ffffff;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+.learner-text p{
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 50px 0px 0px 0px;
+}
+.learner-counting{
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.3rem;
+    text-transform: uppercase;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-bottom: 30px;
+    flex-wrap: wrap;
+}
+.learner-para{
+    margin-left: 40px;
+}
+
+/* new batch  */
+
+.new-batch{
+    padding-top: 70px;
+    text-align: center;
+    line-height: 3rem;
+}
+.new-heading{
+    font-weight: 1.3rem;
+    font-weight: 600;
+    color:rgba(0, 0, 255, 0.555);
+}
+.batch-name{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.batch-description{
+    font-size: 1.2rem;
+}
+.new-batch button{
+    height: 50px;
+    width: 170px;
+    border:1px solid #ffffff;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    background-color: rgba(0, 0, 255, 0.56);
+    color:white;
+}
+
+/* our student */
+
+.our-student{
+    margin-top: 100px;
+    padding: 90px 0px;
+    text-align: center;
+    background-color:rgba(193, 193, 234, 0.144);
+}
+.our-student p{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color:rgba(0, 0, 255, 0.477);
+    text-decoration: underline;
+}
+
+ /* box  */
+
+ .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+ }
+
+.toppers-box{
+    box-shadow: 6px 6px 10px black;
+    width: 350px;
+    padding: 30px;
+    background-color: rgba(0, 0, 255, 0.353);
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.toppers-box:hover{
+    box-shadow: 1px 1px 1px white;
+}
+.student{
+    display: flex;
+    align-items: center;justify-content: center;
+}
+.toppers-box .student-img{
+    background-image: url(img3.jpg);
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+    border-radius: 50%;
+    border:2px solid rgb(255, 255, 255);
+}
+.toppers-box p{
+    margin-top: 30px;
+    text-decoration: none;
+    color: rgb(20, 18, 18);
+    font-weight: 100;
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+.student-name{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.titale{
+    font-weight: bolder;
+}
+
+.our-mission{
+    padding-top: 50px;
+    text-align: center;
+    height: 500px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.our-mission p{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.our-img{
+    background-image: url(img4.jpg);
+    height: 400px;
+    width: 800px;
+    background-size: cover;
+}
+.our-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* join us  */
+
+.join-us{
+    padding-bottom: 50px;
+    margin-top: 150px;
+    background-color:rgba(142, 142, 232, 0.147);
+    flex-wrap: wrap;
+}
+.join-me{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding-top: 50px;
+}
+.platform{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.pl1{
+    margin-top: 50px;
+    line-height: 1.5rem;
+    text-align: center;
+}
+.pl1 i{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.joy{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.platform a{
+    text-decoration: none;
+    color: black;
+}
+
+/* footer  */
+
+.f-all{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.web-logo img{
+    height: 100px;
+    width: 90px;
+}
+.web-logo p{
+    font-size: 1.1rem;
+    flex-wrap: wrap;
+    line-height: 0.8rem;
+}
+.helpful-links li{
+    list-style: none;
+    display: flex;
+    line-height: 2rem;
+    /* align-items: center;
+    justify-content: center; */
+}
+.helpful-links li i{
+    margin-right: 20px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.helpful-links li a{
+    text-decoration: none;
+    color:black;
+    font-size: 1rem;
+}
+.f-all h4{
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.copyright{
+    text-align: center;
+    padding: 100px;
+}
+.checkbtn{
+    display: flex;
+    font-size: 1.9rem;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width:858px){
+    .nav-option{
+        position: fixed;
+        /* width: 100px; */
+        /* height: 100vh; */
+        /* background-color: #2c3e50; */
+        /* top:80; */
+        left: 0;
+    }
+}
